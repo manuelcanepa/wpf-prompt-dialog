@@ -1,0 +1,8 @@
+*
+!.gitignore
+!Dialog.xaml
+!Dialog.xaml.cs
+!PromptDialog.csproj
+!PromptDialog.nuspec
+!Properties
+!Properties/**

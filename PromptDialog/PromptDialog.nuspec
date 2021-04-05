@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>PromptDialog</id>
+    <version>1.0.0</version>
+    <title>PromptDialog</title>
+    <authors>manuelcanepa</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/manuelcanepa/wpf-prompt-dialog</projectUrl>
+    <description>Show a prompt dialog to input string, dates or passwords.</description>
+    <releaseNotes>First release</releaseNotes>
+    <tags>PromptDialog</tags>
+  </metadata>
+</package>
