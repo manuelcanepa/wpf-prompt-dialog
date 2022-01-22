@@ -10,10 +10,10 @@ namespace PromptDialog
     {
         public enum InputType
         {
-            Fecha,
+            Date,
             Text,
             Password,
-            Numero
+            Number
         }
 
         private InputType _inputType = InputType.Text;
@@ -38,7 +38,7 @@ namespace PromptDialog
                     txtPasswordResponse.Visibility = Visibility.Visible;
                     txtPasswordResponse.Focus();
                     break;
-                case InputType.Fecha:
+                case InputType.Date:
                     dtpDateResponse.Visibility = Visibility.Visible;
                     if (!string.IsNullOrEmpty(_defaultValue))
                         dtpDateResponse.SelectedDate = DateTime.Parse(_defaultValue);
