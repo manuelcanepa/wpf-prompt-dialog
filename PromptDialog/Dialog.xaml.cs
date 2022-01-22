@@ -70,7 +70,7 @@ namespace PromptDialog
                 switch (_inputType)
                 {
                     case InputType.Password: return txtPasswordResponse.Password;
-                    case InputType.Fecha: return dtpDateResponse.SelectedDate;
+                    case InputType.Date: return dtpDateResponse.SelectedDate;
                     default: return txtResponse.Text;
                 }
             }
